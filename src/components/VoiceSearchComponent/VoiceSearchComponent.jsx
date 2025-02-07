@@ -68,7 +68,7 @@ const VoiceSearchComponent = () => {
       >
         <span>{"Volver"} </span>
       </Link>
-      <h2 className="text-center mt-10 font-bold mb-7">
+      <h2 className="text-center xs:mt-14 lg:mt-10 font-bold mb-7">
         Search user data by name
       </h2>
       <Search elementRef={refButton} form={form} setForm={setForm} />
